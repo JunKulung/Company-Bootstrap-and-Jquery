@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Julius+Sans+One');
+
+html {
+    scroll-behavior: smooth;
+    }
+
+.jumbotron {
+    height: 480px;
+    background-color: rgb(11, 180, 192);
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    transition: .5s;
+    
+}
+
+.typewriter-effect {
+    padding-top: 85px;
+    font-size: 100px;
+}
+
+.jumbotron p {
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 3px;
+}
+
+.navbar {
+    background-color: rgb(11, 180, 192);
+    border: none;
+    transition: .5s;
+    letter-spacing: 3px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+   
+}
+
+.navbar-brand {
+    color: aliceblue;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+   
+}
+
+.navbar-collapse a {
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-collapse a:hover {
+    color: rgba(10, 10, 10, 0.664);
+}
+
+#index input {
+   color: black;
+   font-family: 'Archivo Narrow', sans-serif;
+   width: 400px;
+   height: 33px;
+   border-top-left-radius: 3px;
+   border-bottom-left-radius: 3px;
+   border: none;
+   letter-spacing: 2px; 
+}
+#index button {
+background-color: white;
+    font-family: 'Archivo Narrow', sans-serif;
+    border: 1px solid white;
+    color: black;
+    padding: 5.5px 20px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    letter-spacing: 2px;
+
+}
+#index button:hover {
+    background-color: rgb(11, 180, 192);
+color: white;
+transition: .4s;
+}
+.first, .second, .third , .fourth ,.fifth, .six, .seven  {
+   
+    margin-top: 20px;
+}
+.container h2, .container-fluid h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+}
+.container p, .container-fluid p {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.col-lg-4 i {
+font-size: 25rem;
+color: rgb(11, 180, 192);
+}
+.col-lg-4 {
+    overflow: hidden;
+}
+.container .subhead  {
+    font-size: 20rem;
+    color: rgb(126, 134, 134);
+    }
+.all-button {
+    font-family: 'Archivo Narrow', sans-serif;
+   padding: 3px 15px;
+    letter-spacing: 1px;
+    font-size: 18px;
+
+    border: 1px solid rgb(11, 180, 192);
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.all-button:hover {
+    background-color: rgb(11, 180, 192);
+    color: white;
+    transition: .4s;
+}
+.third, .seven {
+    background-color: rgb(235, 238, 241);
+}
+.icon i {
+    font-size: 50px;
+}
+.icon h3 {
+    margin-bottom: 30px;
+}
+.icon p, .container-fluid p {
+    margin-bottom: 20px;
+    color: rgb(126, 134, 134);
+}
+.pricing {
+    border: 1px solid rgb(11, 180, 192);
+margin-bottom: 15px;
+}
+.pricing h3 {
+background-color: rgb(11, 180, 192);
+margin-top: 0%;
+margin-bottom: 10px;
+padding: 15px;
+color: white;
+
+}
+.pricing span {
+    color: black;
+}
+fieldset { 
+       font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+.footer i {
+    font-size: 30px;
+    margin-top: 40px;
+}
+.toggleup {
+   
+    z-index: 99;
+   
+    border: none;
+    outline: none;
+    background-color: rgb(170, 162, 162);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(11, 180, 192);
+
+    transition: .8s;
+}
