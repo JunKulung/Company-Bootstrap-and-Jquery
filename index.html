@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <title></title>
-<head>
-</head>
+<head></head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
@@ -13,7 +12,7 @@
 </head>
 <body>
     <div class="jumbotron text-center justify-center" id='index'>
-        <h1 class="typewriter-effect">Company</h1>
+        <h1>Company</h1>
         <p> We specialized blablabbla</p>
         <input type="email" placeholder=" Email.."><button type="submit"><i class="glyphicon glyphicon-search"> </i>  Subscribe</button>
     </div>
@@ -35,7 +34,7 @@
             <li>
                 <a href='#about' >About Us</a>
             </li>
-            <li>
+            <li>    
                 <a href="#services" >Services</a>
             </li>
             <li>
@@ -49,30 +48,31 @@
             </li>
             </ul>
     </nav>
-    </div>
-    <div class="container first" id="about">
+    </div> 
+    <div class="container first ">
+        <hr id="about">
         <div class="row">
-            <div class="col-lg-8 col-md-8">
-            <h2>ABOUT COMPANY PAGE</h2>
+            <div class="col-lg-8 col-md-8 heading">
+            <h2 class="text-left ">ABOUT COMPANY PAGE</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div class="col-lg-12col-md-8 subhead">
+            <div class="col-lg-12col-md-8 subhead ">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
             </div>
             <button type="submit" class="all-button">Get in touch</button>
             </div>
-            <div class="col-lg-4 col-md-4 text-center">
+            <div class="col-lg-4 col-md-4 text-left">
             <i class="glyphicon glyphicon-signal"> </i>
             </div>
         </div>
     </div>
     <div class="container second">
         <div class="row">
-            <div class="col-lg-4 col-md-4  text-center">
+            <div class="col-lg-4 col-md-4  text-left">
             <i class="glyphicon glyphicon-globe"> </i>
             </div>
-            <div class="col-lg-8 col-md-8">
+            <div class="col-lg-8 col-md-8  heading">
             <h2>OUR VALUES</h2>
             <p>Mission : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
@@ -83,11 +83,13 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid text-center third" id="services">
-        <div class="row">
+    <div>
+    <div class="container-fluid text-center third">
+        <hr id="services">
+        <div class="row"  >
             <h2>SERVICES</h2>
             <div class="col-lg-4 col-md-4 icon">
-            <i class="glyphicon glyphicon-off "> </i>
+            <i class="glyphicon glyphicon-off  "> </i>
             <h3>POWER </h3>
             <p>Lorem ipsum dolor sit amet..</p>
             </div>
@@ -118,27 +120,40 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid text-center fourth" id="portfolio">
-        <div class="row">
-            <h2>PORTFOLIO</h2>
-            <p>What we have created</p>
-            <div class="col-lg-4 col-sm-4">
+    <div class="container-fluid text-center fourth" >
+    <hr id="portfolio">
+    <div class="row">
+        <h2>PORTFOLIO</h2>
+        <p>What we have created</p>
+        <div class="col-lg-4 col-sm-4">
+            <div class="overlay">
             <img src="8.jpg">
-            <h4>Lorem ipsum </h4>
-            <p>Lorem ipsum dolor sit amet..</p>
+            <div class="info">
+                <h4>Lorem ipsum </h4>
+                <p>Lorem ipsum dolor sit amet..</p>
             </div>
-            <div class="col-lg-4 col-sm-4">
-            <img src="8.jpg">
-            <h4>Lorem ipsum </h4>
-            <p>Lorem ipsum dolor sit amet..</p>
             </div>
-            <div class="col-lg-4 col-sm-4">
+        </div>
+        <div class="col-lg-4 col-sm-4">
+            <div class="overlay">
             <img src="8.jpg">
-            <h4>Lorem ipsum </h4>
-            <p>Lorem ipsum dolor sit amet..</p>
+            <div class="info">
+                <h4>Lorem ipsum </h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+            <div class="overlay">
+            <img src="8.jpg">
+            <div class="info">
+                <h4>Lorem ipsum </h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
             </div>
         </div>
     </div>
+</div>
     <div class="container text-center fifth">
         <div class="row">
             <button type="button" class="all-button" data-toggle="collapse" data-target="#demo">
@@ -160,7 +175,8 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid text-center six" id="pricing">
+    <div class="container-fluid text-center six" >
+        <hr id="pricing">
         <div class="row">
             <h2>PRICING</h2>
             <p>Choose a payment plan that works for you</p>
@@ -208,7 +224,8 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid seven" id="contact">
+    <div class="container-fluid seven" >
+        <hr id="contact">
         <div class="row">
             <h2 class="text-center">CONTACT</h2>
             <div class="col-lg-5 col-md-5">
@@ -218,7 +235,7 @@
             <p> <i class="glyphicon glyphicon-phone"> </i>  +00 1515151515</p>
             </div
             >
-            <div class="col-lg-7 col-md-7">
+            <div class="col-lg-7 col-md-7.">
             <form class="form-horizontal" action="" method="post">
                 <fieldset>
                     <!-- Name input-->
